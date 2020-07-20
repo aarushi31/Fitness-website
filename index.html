@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>SmartFit</title>
+        <style>
+            body{
+                margin:0px;
+                padding:0px;
+                background: url('chachi.jpg');
+                color:white;
+                font-family: 'Baloo Bhai 2', cursive;
+            }
+            .left{
+                
+               display:inline-block;
+               position:absolute;
+               left:34px;
+               top:5px;
+               font-family: 'Baloo Bhai 2', cursive;
+               line-height: 0px;
+            }
+            .mid{
+                display:block;
+                width:45%;
+                margin:18px auto;
+                border:2px solid rgb(247, 250, 247);
+                border-radius:10px;
+                font-family: 'Baloo Bhai 2', cursive;
+            }
+            .right{
+                
+                display:inline-block;
+                position:absolute;
+                right:34px;
+                top:24px;
+                font-family: 'Baloo Bhai 2', cursive;
+            }
+            .navbar{
+                display:inline-block;
+
+            }
+            .navbar li{
+                display:inline-block;
+                
+            }
+            .navbar li a{
+                color:white;
+                text-decoration: none;
+                padding:34px 23px;
+            }
+            .navbar li a:hover,.navbar li a.active{
+                text-decoration: underline;
+                color:rgb(175, 172, 172);
+                
+            }
+            .left img{
+                width:61px;
+                filter:invert(100%);
+            }
+            .btn{
+                margin:5px;
+                color:white;
+                background-color: black;
+                padding:3px 15px;
+                border: 2px solid black;
+                border-radius: 10px;
+                font-size: 16px;
+                cursor: pointer;
+                font-family: 'Baloo Bhai 2', cursive;
+            }
+            .btn:hover{
+                background-color:rgb(216, 216, 216);
+                color:black;
+                border:2px solid rgb(216, 216, 216);
+            }
+            .container{
+                border:2px solid white;
+                margin:123px 51px;
+                padding:32px 21px;
+                width:33%;
+                border-radius:10px;
+            }
+            .container h1{
+                text-align: center;
+            }
+            .form-group input{
+                text-align: center;
+                margin: 10px -3px;
+                padding: 8px;
+                width: 401px;
+                border-radius: 8px;
+                border:2px solid black;
+                font-family: 'Baloo Bhai 2', cursive;
+            }
+            .container button{
+                display:block;
+                width:23%;
+                margin:auto;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <header class="header">
+            <div class="left">
+                <img src="logo3.png" alt="Image">
+                <div>SmartFit</div>
+            </div>
+            <div class="mid">
+                <ul class="navbar">
+                    <li><a href="#" >Home</a></li>
+                    <li><a href="#" >About Us</a></li>
+                    <li><a href="#" >Fitness Calculator</a></li>
+                    <li><a href="#" >Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <button class="btn">Call Us Now</button>
+                <button class="btn">Email Us</button>
+            </div>
+        </header>
+        <div class="container">
+            <h1>Join Our Gym Now!</h1>
+            <form action="noaction.php">
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your age">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your gender">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your locality">
+                </div>
+                <button class="btn">Submit</button>
+            </form>
+        </div>
+    </body>
+</html>
